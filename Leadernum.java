@@ -6,6 +6,7 @@ public class Leadernum {
                 if(a[i] <= a[j]){
                     break;
                 }
+                
                 }
                 sum += a[i];
             }
