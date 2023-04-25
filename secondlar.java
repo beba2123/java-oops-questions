@@ -22,3 +22,4 @@ public class secondlar {
             System.out.println("Second largest value: " + index);
         }
 }
+
