@@ -7,7 +7,7 @@ public class Binarysearch {
           int begin=0;
           int last=a.length-1;
           
-          while(begin<=last){
+          for(int i = begin;i<=last;i++){ // you can use while loop if we want like this(last<=begin))
             int middle = (begin + last)/2;
             int middleNumber = a[middle];
            if(value==middleNumber){
