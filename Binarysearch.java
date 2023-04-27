@@ -6,8 +6,9 @@ public class Binarysearch {
     private static int Binarysearch1(int a[], int value){
           int begin=0;
           int last=a.length-1;
-          int middle = (begin + last)/2;
+          
           while(begin<=last){
+            int middle = (begin + last)/2;
             int middleNumber = a[middle];
            if(value==middleNumber){
            return middle;
