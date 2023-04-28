@@ -1,7 +1,7 @@
 public class method {
     public static void main(String[] args) {
-        int[] a = {4,4,6,2,7,9};
-        int[] b = {4,6,7,1,9};
+        int[] a = {4,2,6,2,7,1,9};
+        int[] b = {4,6,7,2,9};
         System.out.println(myMethod(a, b));
     }
 
@@ -17,11 +17,11 @@ public class method {
             }
                 for(int j=0;j<b.length; j++){
                     if(b[j]<=min){
-                        flag =true;    
+                        return -1;    
                     }
                 }
-            if(flag)
-            return -1;
+            // if(flag)
+            // return -1;
             
         return index;
          
