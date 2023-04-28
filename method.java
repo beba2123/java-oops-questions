@@ -8,7 +8,6 @@ public class method {
     public static int myMethod(int[] a, int[] b){
         int min = Integer.MAX_VALUE;
         int index =0;
-        boolean flag = false;
          for(int i=0; i<a.length; i++){
                 if(min  > a[i]){
                     min=a[i];
