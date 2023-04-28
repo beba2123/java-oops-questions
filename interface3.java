@@ -58,12 +58,13 @@ class Circle implements shape{
 public class interface3 {
     public static void main(String[] args){
         	// Rectangle area and parameter
-		
-		Rectangle r = new Rectangle();
+		double length = 12;
+        double breath = 21;
+		Rectangle r = new Rectangle(length, breath);
 
 		System.out.println("Rectangle - Area: " + r.area());
 		System.out.println("Rectangle - perimeter: " + r.perimeter());
-
+        
 		// Circle area and parameter
 		
 		Circle c = new Circle();
