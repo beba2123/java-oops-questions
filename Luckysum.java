@@ -1,20 +1,21 @@
 public class Luckysum {
     public static void main(String[] args) {
-        int[]a= {1,2,3,4,6,5};
+        int[]a= {1,2,3,4,5};
+
         System.out.println(luckSum(a));
     }
 
     public static int luckSum(int[] a){
-      int sum=0;
-      for(int i =0; i<a.length-1; i++){
-        
-           if(a[i] < a[i+1]){
-            sum+=a[i];
-           }else{
-            return 0;
-           }
-      }
-      return sum;
-    }
-}
+      int sum=0; //inorder to find the sum of  the luckysum..
+       for(int i=1; i<a.length;i++){  //for picking one number in the array
+         for(int j=i-1; j<0;j--){   //for iterating the left side number right to it.
+          if(a[i]<=a[j]){ // 
+            break;
+          }
+        }
+        sum+=a[i];
+       }
+       return sum;
+ }
 
+}
