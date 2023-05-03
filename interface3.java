@@ -50,6 +50,12 @@ class Circle implements shape{
         double CircPerimeter = 2 * Math.PI * radius;
         return CircPerimeter;
     }
+    public double getradius(){
+        return radius;
+    }
+    public void setradius(int radius){
+       this.radius = radius;
+    }
 
 }
 
@@ -60,6 +66,7 @@ public class interface3 {
         	// Rectangle area and parameter
 		double length = 12;
         double breath = 21;
+        
 		Rectangle r = new Rectangle(length, breath);
 
 		System.out.println("Rectangle - Area: " + r.area());
@@ -68,6 +75,7 @@ public class interface3 {
 		// Circle area and parameter
 		
 		Circle c = new Circle();
+        c.setradius(25);
 		System.out.println("Circle - Area: " + c.area());
 		System.out.println("Circle - perimeter: " + c.perimeter());
 

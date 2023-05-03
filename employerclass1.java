@@ -35,7 +35,7 @@ class Employee{
     }
     public int calculateFee(){
         int totalfee;
-        totalfee = getfee()*30;
+        totalfee = fee*30;
         return totalfee;
     }
 }

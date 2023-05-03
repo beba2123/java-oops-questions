@@ -1,11 +1,11 @@
 class customer{
     private String name;
     private int unitConsumed;
-
      //constructor
     public customer(){
         name="John Doe";
         unitConsumed = 20;
+       
     }
     public customer(int unitConsumed, String name){
         this.name =name;

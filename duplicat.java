@@ -33,7 +33,7 @@ public class duplicat{
      }
     public static void main(String[] args){
          int a[]= {1,2,3,45,32,45,43,46,43};
-        System.out.println("duplicate elements are..==> " + duplicate(a));
+        System.out.println(" duplicate elements are..==> " + duplicate(a));
      }
  
  
