@@ -1,8 +1,8 @@
 public class charcount {
     public static void main(String[] args) {
-        String str = "Anteneh Alem";
-        char ch = 'A';
-        System.out.println("the characters in the string is.." + StringsChar(str, ch));
+        // String str = "Anteneh Alem";
+        // char ch = 'A';
+        System.out.println("the characters in the string is.." + StringsChar("Anteneh Alem", 'A'));
     }
 
     public static int StringsChar(String str, char c){

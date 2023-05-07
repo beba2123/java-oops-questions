@@ -23,9 +23,9 @@ public class common {
           for(int j =0; j<b.length; j++){
               if(a[i]==b[j]){
                count++;
-              }
+              }                
            }
-            if(count > 0)
+            if(count >=0)
             set.add(a[i]);
        }
        return set;

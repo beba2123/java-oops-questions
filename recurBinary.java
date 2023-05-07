@@ -8,6 +8,7 @@ public class recurBinary{
         if(start>end){     //the base condition for the method..
             return -1;
         }
+        if(start<=end){
         int middle = (start+end)/2;
         int  middlenum = a[middle];
         if(value==middlenum){
@@ -20,6 +21,7 @@ public class recurBinary{
             return BSC(a, start, middle-1, value);
         }
         
-       
+    }
+    return -1;
     }
 }
